@@ -1,0 +1,212 @@
+body{
+	background-color: #EEEEEE
+}
+
+header-bar{
+	padding: 0px; !important
+}
+
+div{
+	padding: 0px;
+}
+
+#logo{
+	padding: 0px; 
+	text-align: center;
+}
+
+#logo img {
+	width: 50%;
+}
+
+#search{
+	background-color: white;
+}
+
+.category-icon{
+	font-size: 18px;
+	padding-top: 5px;	
+}
+
+#category{
+	background: none; 
+	border: none
+}
+
+#header{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.banner{
+	background-color: #EEEEEE;
+}
+
+.hot-product{
+	background-color: #EEEEEE;
+	padding: 0px;
+	padding-top: 10px;
+	margin-top: 10px;
+	margin-left: 10%
+}
+
+.hot-product img{
+	width: 100%;
+}
+
+.thumb{
+	width: 100%;
+	height: auto;
+}
+
+.hot-product-title{
+	padding-left: 0px;
+	background-color: red;
+	color: white;
+	box-shadow: 5px 0px 5px grey;
+}
+
+.hot-product-title h4{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.hot-product-title i{
+	padding-top: 10px;
+}
+
+.rslides {
+  position: relative;
+  list-style: none;
+  overflow: hidden;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  }
+
+.rslides li {
+  -webkit-backface-visibility: hidden;
+  position: absolute;
+  display: none;
+  width: 100%;
+  left: 0;
+  top: 0;
+  }
+
+.rslides li:first-child {
+  position: relative;
+  display: block;
+  float: left;
+  }
+
+.rslides img {
+  display: block;
+  height: auto;
+  float: left;
+  width: 100%;
+  border: 0;
+  }
+
+.hotline-title{
+	text-align: right;
+	color: white;
+}
+
+#hotline {
+	text-align: left;
+	padding-top: 7px;
+	color: yellow
+}
+
+.tab{
+	margin-left: 1%;
+}
+
+.product{
+	background-color: white;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	box-shadow: 1px 1px 5px grey;
+}
+
+.product-title{
+	width: 100%;
+	height: 80%;
+}
+
+.m-t-10{
+	margin-top: 10px;
+}
+
+.m-t-20{
+	margin-top: 20px;
+}
+
+.buy{
+	text-align: right;
+	color: red;
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+}
+
+#carousel-example-generic{
+	margin-bottom: 0px;
+}
+
+#carousel-example-generic img{
+	height: 200px;
+	width: 100%;
+}
+
+#picture{
+	width: 100%;
+}
+
+#picture img{
+	width: 100%;
+	height: auto;
+}
+
+.indicators{
+
+}
+
+.menu {
+	border: solid 1px;
+}
+
+.menu-tab {
+	height: 30px;
+}
+
+.menu-tab p{
+	color: red;
+}
+
+.menu-tab-icon {
+	text-align: right;
+}
+
+#cate {
+	display: none;
+	position: absolute;
+	top: 25px;
+	z-index: 4;
+}
+
+
+.item{
+	height: auto;
+}
+
+#bg {
+	background-color: #EEEEEE; 
+	width: 100%; height: 100%; 
+	position: absolute; 
+	z-index: 3; 
+	display: none; 
+	opacity: 0.5;
+}
