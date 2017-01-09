@@ -33,6 +33,28 @@ div{
 	border: none
 }
 
+.category-title-large{
+	width: 100%; 
+	background-color: #CA181F; 
+	padding: 10px 0px 10px 0px; 
+	color: white
+}
+
+.category-icon-large{
+	text-align: center;
+}
+
+#category-large a:hover {
+	color: red;
+}
+#category-large a:active {
+	color: yellow;
+}
+#category-large a {
+	color: black;
+}
+
+
 #header{
 	background-color: white;
 	padding-top: 10px;
@@ -48,7 +70,6 @@ div{
 	padding: 0px;
 	padding-top: 10px;
 	margin-top: 10px;
-	margin-left: 10%
 }
 
 .hot-product img{
@@ -65,6 +86,7 @@ div{
 	background-color: red;
 	color: white;
 	box-shadow: 5px 0px 5px grey;
+	padding-bottom: 5px;
 }
 
 .hot-product-title h4{
@@ -113,14 +135,9 @@ div{
 	color: white;
 }
 
-#hotline {
-	text-align: left;
-	padding-top: 7px;
-	color: yellow
-}
-
 .tab{
-	margin-left: 1%;
+	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .product{
@@ -149,7 +166,7 @@ div{
 	color: red;
 	position: absolute;
 	right: 20px;
-	bottom: 20px;
+	bottom: 15px;
 }
 
 #carousel-example-generic{
@@ -163,11 +180,11 @@ div{
 
 #picture{
 	width: 100%;
+	height: 300px;
 }
 
 #picture img{
-	width: 100%;
-	height: auto;
+	height: 69.767%;
 }
 
 .indicators{
@@ -194,7 +211,9 @@ div{
 	display: none;
 	position: absolute;
 	top: 25px;
+	left: 15px;
 	z-index: 4;
+	width: 100%;
 }
 
 
@@ -204,9 +223,30 @@ div{
 
 #bg {
 	background-color: #EEEEEE; 
-	width: 100%; height: 100%; 
+	width: 100%; height: auto; 
 	position: absolute; 
 	z-index: 3; 
 	display: none; 
 	opacity: 0.5;
+}
+
+.footer{
+	color: black;
+	padding-left: 0px;
+	box-shadow: 5px 0px 5px grey;
+	padding-bottom: 5px;
+}
+
+.social-icon {
+	border-radius: 100%;
+	background-color: grey;
+	width: 25px;
+	height: 25px;
+	text-align: center;
+	padding-top: 5px;
+	color: white;
+}
+
+.icon-facebook{
+	background-color: #3b5998;
 }
