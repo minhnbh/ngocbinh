@@ -15,6 +15,10 @@ div{
 	text-align: center;
 }
 
+#logo img{
+	width: 100%;
+}
+
 #logo img {
 	width: 50%;
 }
@@ -30,7 +34,10 @@ div{
 
 #category{
 	background: none; 
-	border: none
+	border: none;
+	position: absolute;
+	left: -20px;
+	z-index: 2;
 }
 
 .category-title-large{
@@ -169,13 +176,18 @@ div{
 	bottom: 15px;
 }
 
-#carousel-example-generic{
-	margin-bottom: 0px;
+.buy a {
+	color: red;
 }
 
-#carousel-example-generic img{
-	height: 200px;
-	width: 100%;
+.buy a:hover{
+	color: yellow;
+	font-size: 150%;
+}
+
+.buy a:active{
+	color: yellow;
+	font-size: 140%;
 }
 
 #picture{
@@ -193,38 +205,79 @@ div{
 
 .menu {
 	border: solid 1px;
+	padding-right: 0px;
 }
+
+
 
 .menu-tab {
 	height: 30px;
 }
 
-.menu-tab p{
-	color: red;
+.menu-tab-title {
+	padding-top: 8px;
+	color: black;
+}
+
+.menu-tab div {
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px
 }
 
 .menu-tab-icon {
-	text-align: right;
+	color: black;
+	text-align: center;
+	padding: 5px 0px 0px 0px;
+}
+
+.menu-tab-icon2 {
+	border-radius: 100%;
+	width: 25px;
+	height: 25px;
+	color: white;
+	padding-top: 5px;
+}
+
+.menu-tab-hotline {
+	padding-left: 7px;
 }
 
 #cate {
 	display: none;
 	position: absolute;
-	top: 25px;
-	left: 15px;
+	top: 0px;
+	left: 0px;
 	z-index: 4;
-	width: 100%;
+	width: 300px;
+	padding-left: 15px;
 }
 
+#close{
+	padding-left: 0px;
+	padding-right: 0px;
+	border: solid 0.5px black;
+	text-align: center;
+	width: 30px;
+	height: 30px;
+	background-color: white;
+}
+
+#close i{
+	width: 100%;
+	padding-top: 5px;
+}
 
 .item{
 	height: auto;
 }
 
 #bg {
-	background-color: #EEEEEE; 
-	width: 100%; height: auto; 
-	position: absolute; 
+	background-color: black; 
+	width: 100%; height: 100%; 
+	position: fixed;
+	left: 0px;
+	top: 0px; 
 	z-index: 3; 
 	display: none; 
 	opacity: 0.5;
@@ -235,6 +288,8 @@ div{
 	padding-left: 0px;
 	box-shadow: 5px 0px 5px grey;
 	padding-bottom: 5px;
+	text-align: center;
+	background-color: white;
 }
 
 .social-icon {
@@ -249,4 +304,133 @@ div{
 
 .icon-facebook{
 	background-color: #3b5998;
+}
+
+#bigPic{
+	width:100%;
+	height:auto;
+	padding:1px;
+	background-color:#FFF;
+}
+#bigPic img{
+	position:absolute;
+	display:none;
+	width: 100%;
+	height: 83%;
+}
+ul#thumbs li.active{
+	border:2px solid #000;	
+	background:#fff;
+	padding:2px;
+}
+ul#thumbs, ul#thumbs li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#thumbs li{
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:3px;
+	cursor:pointer;
+	width: 15%;
+	height: auto
+}
+ul#thumbs img{
+	float:left;
+	width:100%;
+	height:100%;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
+}
+
+#bigPic1{
+	width:100%;
+	height:auto;
+	padding:1px;
+	background-color:#FFF;
+}
+#bigPic1 img{
+	position:absolute;
+	display:none;
+	width: 100%;
+	height: 83%;
+}
+ul#thumbs1 li.active{
+	border:2px solid #000;	
+	background:#fff;
+	padding:2px;
+}
+ul#thumbs1, ul#thumbs1 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#thumbs1 li{
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:3px;
+	cursor:pointer;
+	width: 15%;
+	height: auto
+}
+ul#thumbs1 img{
+	float:left;
+	width:100%;
+	height:100%;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
+}
+
+#bigPic2{
+	width:100%;
+	height:auto;
+	padding:1px;
+	background-color:#FFF;
+}
+#bigPic2 img{
+	position:absolute;
+	display:none;
+	width: 100%;
+	height: 83%;
+}
+ul#thumbs2 li.active{
+	border:2px solid #000;	
+	background:#fff;
+	padding:2px;
+}
+ul#thumbs2, ul#thumbs2 li{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+	
+ul#thumbs2 li{
+	float:left;
+	margin-right:7px;
+	margin-bottom:5px;
+	border:1px solid #CCC;	
+	padding:3px;
+	cursor:pointer;
+	width: 15%;
+	height: auto
+}
+ul#thumbs2 img{
+	float:left;
+	width:100%;
+	height:100%;
+	line-height:80px;
+	overflow:hidden;
+	position:relative;
+	z-index:1;		
 }
