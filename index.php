@@ -183,7 +183,7 @@
 	</ul>
 </div>
 
-<div class="col-md-7 visible-md visible-lg" style="height: 450px; padding: 0px; display: none">
+<div class="col-md-9 visible-md visible-lg" style="height: 450px; padding: 0px; display: none">
 	<div id="bigPic" style="width: 100%; height: 85%;">
 	    <img alt="" src="asset/img/slider1.jpg">
 	    <img alt="" src="asset/img/slider2.jpg">
@@ -244,7 +244,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 hot-product">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 hot-product">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-sm-offset-0 col-lg-4 col-lg-offset-0 tab">
 				<div class="row product">
@@ -451,7 +451,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-xs-10 col-xs-offset-1 col-sm-12 col-sm-offset-0 hot-product">
+	<div class="col-xs-10 col-xs-offset-1 col-sm-10 col-sm-offset-1 hot-product">
 		<div class="row">
 			<div class="col-xs-12 col-sm-6 col-sm-offset-0 col-lg-4 col-lg-offset-0 tab">
 				<div class="row product">
